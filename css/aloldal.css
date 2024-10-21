@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+}
+
+.background-1 {
+    background-image: url(../img/1.kakaos-csigak-.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.background-2 {
+    background-image: url(../img/2.kakaos-csiga.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.background-3 {
+    background-image: url(../img/3.csiga.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav {
+    list-style-type: none;
+    background-color: #555;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    float: left;
+    display: block;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #f5eeee;
+}
+
+nav a:hover {
+    background-color: #666;
+    color: #c3bcbc;
+}
+
+header {
+    padding: 20px;
+    background-color: #c3bcbc;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+div.Recept {
+    background-color: #444;
+    max-width: 960px;
+    padding: 20px;
+    margin: 20px auto;
+    color: #f5eeee;
+}
+
+div.Recept h2, div.Recept h3 {
+    margin-top: 20px;
+}
+
+div.Recept ul, div.Recept ol {
+    padding-left: 20px;
+}
+
+div.Tablazat {
+    background-color: #ccc;
+    padding: 10px;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}

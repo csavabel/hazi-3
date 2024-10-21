@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/kakao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #555;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+ 
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #f5eeee;
+}
+
+ul li a:hover {
+    background-color: #666;
+    color: #c3bcbc;
+}
+
+header {
+    padding: 20px;
+    background-color: #c3bcbc;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+div.content {
+    background-color: #444;
+    max-width: 960px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+div.content::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+div.content-2 {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+div.card {
+    float: left;
+    width: 46%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #eee;
+}
